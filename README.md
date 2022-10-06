@@ -17,10 +17,10 @@ font-to-css
 ├─ dist                                  # CSS 转换结果目录
 │  └─ AaWeiTaNingMengCha-2.css           # CSS 结果示例
 ├─ src                                   # 项目原始资源目录
-│  └─ fonts                              # 原始字体目录，待处理字体放这里
-│  │  └─ .font-spider                    # 自动备份原始字体
+│  ├─ fonts                              # 原始字体目录，待处理字体放这里
+│  │  ├─ .font-spider                    # 自动备份原始字体
 │  │  │  └─ AaWeiTaNingMengCha-2.ttf     # 自动备份示例
-│  │  └─ woff2                           # 自动备份 woff2
+│  │  ├─ woff2                           # 自动备份 woff2
 │  │  │  └─ AaWeiTaNingMengCha-2.woff2   # 自动备份示例
 │  │  └─ AaWeiTaNingMengCha-2.ttf        # 原始字体处理结果
 │  └─ index.html                         # 待提取汉字信息在这里输入
