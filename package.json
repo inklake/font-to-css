@@ -4,7 +4,10 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "fontFrisk": "gulp fontFrisk",
+    "ttfToWoff2": "gulp ttfToWoff2",
+    "fontToCss": "gulp fontToCss"
   },
   "author": "Inklake",
   "license": "MIT",
